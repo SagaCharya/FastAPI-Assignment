@@ -1,0 +1,35 @@
+
+### Creating a blog
+POST http://localhost:8000/create
+Content-Type: application/json
+
+{
+    "title": "saga",
+    "content": "this is first",
+    "author": "saga"
+
+}
+
+### viewing all bolgs
+GET http://localhost:8000/
+
+
+### updating a blog
+PUT http://localhost:8000/update/saga
+Content-Type: application/json
+
+{
+    "title": "",
+    "content": "this is update",
+    "author": ""
+
+}
+
+### deleting a blog
+DELETE http://localhost:8000/delete/saga
+
+
+
+
+
+
